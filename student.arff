@@ -1,0 +1,15 @@
+@relation student
+@attribute rno numeric
+@attribute name string
+@attribute date_of_join date "yyyy-MM-dd"
+@attribute dept {cse,ece,eee,it}
+@attribute class {PASS,FAIL}
+@attribute age numeric
+
+@data
+12,mani,"2017-08-11",cse,PASS,32
+13,siri,"2017-08-11",ece,PASS,32
+14,vani,"2017-08-11",eee,PASS,33
+15,rani,"2017-08-11",it,FAIL,32
+16,hema,"2017-08-12",cse,PASS,32
+
